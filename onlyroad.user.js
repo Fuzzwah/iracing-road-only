@@ -314,6 +314,10 @@ executeJQuery(function() {
   /**
    * Club and Regional
    */
+  var clubPages = ['608', '609', '610', '14311']
+
+  toggleForumRowByPage(clubPages)  
+  
   var regionalHeaders = ['Regional Competitions Discussion']
   var regionalPages = ['4111']
 
