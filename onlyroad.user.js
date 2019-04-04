@@ -294,8 +294,9 @@ executeJQuery(function() {
     '643', // world cup of iracing
     '9711', // iracers with physical challenges
     '3511', // new tire model discussion
-    '605', // staff announcements (just maintenance)
-    '646', // world tour and special events
+    '651', // real world racing
+    '17911', // indy car series
+    '14911', // time attack
     '12311', // job openings
     '9111', // pinned announcements
     '10512', // iracing.com world chanmpionship grand prix
@@ -322,10 +323,10 @@ executeJQuery(function() {
   /**
    * Paint
    */
-  //    var paintHeaders = ["The Paint Booth"];
-  //    var paintPages = ["639", "640"];
-  //    toggleForumRowByText(paintHeaders);
-  //    toggleForumRowByPage(paintPages);
+  var paintHeaders = ["The Paint Booth"];
+  var paintPages = ["639", "640"];
+  toggleForumRowByText(paintHeaders);
+  toggleForumRowByPage(paintPages);
 
   /**
    * Technical and Help
@@ -335,6 +336,9 @@ executeJQuery(function() {
     '617', // camera files
     '6912', // linux
     '6911', // osx
+    '616', // tech assist
+    '11111', // vr
+    '10311', // controllers
   ]
   toggleForumRowByPage(techPages)
 })
