@@ -1,8 +1,7 @@
 // ==UserScript==
-// @name        iRacing no oval
+// @name        iRacing only road
 // @namespace   drinkto.me
 // @description Userscript for iRacing that hides content that is oval-based.  This is opinionated, so YMMV.
-// @include     http://members.iracing.com/jforum/forums/list.page
 // @include     http://members.iracing.com/membersite/member/*
 // @version     9
 // @grant       none
@@ -281,17 +280,6 @@ executeJQuery(function() {
   /******************************************************
    * OPINIONATED removal below here, just oval is above
    */
-
-  /**
-   * Remove club
-   */
-  // club general discussion
-  $("td:contains('Club Discussion Area')")
-    .parent()
-    .next()
-    .remove()
-  var clubHeaders = ['Club Discussion Area', 'Club News', 'Club Stats', 'Setup Garage']
-  toggleForumRowByText(clubHeaders)
 
   /**
    * Racing and championships (selected ones only)
