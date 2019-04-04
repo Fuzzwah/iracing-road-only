@@ -2,6 +2,7 @@
 // @name        iRacing only road
 // @namespace   drinkto.me
 // @description Userscript for iRacing that hides content that is oval-based.  This is opinionated, so YMMV.
+// @include     http://members.iracing.com/jforum/forums/list.page
 // @include     http://members.iracing.com/membersite/member/*
 // @version     9
 // @grant       none
